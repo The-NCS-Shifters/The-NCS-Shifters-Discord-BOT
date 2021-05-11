@@ -1,2 +1,2 @@
-# The-NCS-Shifters-Discord-BOT
-Our Discord BOT
+# The-NCS-Shifters-BOT
+The NCS Shifters is Music BOT that runs by our YouTube Playlist.
