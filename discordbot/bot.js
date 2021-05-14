@@ -222,6 +222,76 @@ client.on("ready", () => {
                     client.channels.cache.get("840939400833269770").setName(`TROVO: ${data.trovo}`);
                     client.channels.cache.get("840939447376937032").setName(`YOUTUBE: ${data.youtube}`);
                     client.channels.cache.get("840939102034722826").setName(`VIEWERS: ${data.totalviewers}`);
+		    
+		    if (data.live.vimm == "Online") {
+			
+			client.channels.cache.get("842190465017053185").setName(`VIMM: 🟢`);
+		
+		    } else if (data.live.vimm == "Problems") {
+			    
+		        client.channels.cache.get("842190465017053185").setName(`VIMM: 🟠`);
+			    
+		    } else {
+			
+			client.channels.cache.get("842190465017053185").setName(`VIMM: 🔴`);
+			
+		    }
+			
+		    if (data.live.twitch == "Online") {
+			
+			client.channels.cache.get("842189863583481908").setName(`TWITCH: 🟢`);
+		
+		    } else if (data.live.twitch == "Problems") {
+			    
+		        client.channels.cache.get("842189863583481908").setName(`TWITCH: 🟠`);
+			    
+		    } else {
+			
+			client.channels.cache.get("842189863583481908").setName(`TWITCH: 🔴`);
+			
+		    }
+			
+		    if (data.live.dlive == "Online") {
+			
+			client.channels.cache.get("842190344757313536").setName(`DLIVE: 🟢`);
+		
+		    } else if (data.live.dlive == "Problems") {
+			    
+		        client.channels.cache.get("842190344757313536").setName(`DLIVE: 🟠`);
+			    
+		    } else {
+			
+			client.channels.cache.get("842190344757313536").setName(`DLIVE: 🔴`);
+			
+		    }
+			
+		    if (data.live.trovo == "Online") {
+			
+			client.channels.cache.get("842190525875879997").setName(`TROVO: 🟢`);
+		
+		    } else if (data.live.trovo == "Problems") {
+			    
+		        client.channels.cache.get("842190525875879997").setName(`TROVO: 🟠`);
+			    
+		    } else {
+			
+			client.channels.cache.get("842190525875879997").setName(`TROVO: 🔴`);
+			
+		    }
+			
+	            if (data.live.youtube == "Online") {
+			
+			client.channels.cache.get("842190574919483444").setName(`YOUTUBE: 🟢`);
+		
+		    } else if (data.live.youtube == "Problems") {
+			    
+		        client.channels.cache.get("842190574919483444").setName(`YOUTUBE: 🟠`);
+			    
+		    } else {
+			
+			client.channels.cache.get("842190574919483444").setName(`YOUTUBE: 🔴`);
+			
+		    }
                 
                 })
 
