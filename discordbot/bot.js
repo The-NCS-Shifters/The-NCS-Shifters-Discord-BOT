@@ -222,6 +222,7 @@ client.on("ready", () => {
                     client.channels.cache.get("840939400833269770").setName(`TROVO: ${data.trovo}`);
                     client.channels.cache.get("840939447376937032").setName(`YOUTUBE: ${data.youtube}`);
                     client.channels.cache.get("840939102034722826").setName(`VIEWERS: ${data.totalviewers}`);
+	            client.channels.cache.get("853201182939545631").setName(`TNS: ${data.tns}`);
 		    
 		    if (data.live.vimm == "Online") {
 			
@@ -276,6 +277,20 @@ client.on("ready", () => {
 		    } else {
 			
 			client.channels.cache.get("842190525875879997").setName(`TROVO: 🔴`);
+			
+		    }
+			
+	            if (data.live.tns == "Online") {
+			
+			client.channels.cache.get("852905084941762580").setName(`TNS: 🟢`);
+		
+		    } else if (data.live.tns == "Problems") {
+			    
+		        client.channels.cache.get("852905084941762580").setName(`TNS: 🟠`);
+			    
+		    } else {
+			
+			client.channels.cache.get("852905084941762580").setName(`TNS: 🔴`);
 			
 		    }
 			
