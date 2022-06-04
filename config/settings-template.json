@@ -1,0 +1,145 @@
+{
+  "clienttoken": "BOT TOKEN",
+
+  "clientname": "NAME CLIENT",
+
+  "clientid": "CLIENT ID",
+
+  "TestingServerID": "SUPPORT SERVER",
+
+  "clientavatar":"CLIENT AVATAR",
+
+  "prefix": "chis!",
+
+  "developerID": ["ID1", "ID2"],
+
+  "colorthemecode":"#FF5733",
+  
+  "randomMessages_Cooldown": ["Slow It Down Fam...", "Spam Isn't Cool Fam....", "Get Premium dude...", "Never Gonna Let You Down","Subscribe To DrakeZee lol"],
+
+  "musicaddon": {
+    "YOUTUBE_API_KEY": "",
+    "SOUNDCLOUD_CLIENT_ID": "",
+    "MAX_PLAYLIST_SIZE": 400,
+    "PRUNING": true
+  },
+
+  "sql": {
+    "host": "",
+    "user": "",
+    "password": "",
+    "database": "",
+    "toggle": true
+  },
+
+  "gameapis": {
+    "CODAPI": {
+        "email": "",
+        "pass": ""
+    },
+    "hypixelAPI": "",
+    "destiny2api": "",
+    "TRNAPIKEY": "",
+    "fortnite": ""
+  },
+
+  "botlistapi": {
+    "vortexlist": {
+      "apitoken": "",
+      "domain": "https://vortexlist.xyz"
+    },
+
+    "top": {
+      "apitoken": "",
+      "domain": "https://top.gg"
+    },
+
+    "discordbotlist": {
+      "apitoken": "",
+      "domain": "https://discordbotlist.com"
+    },
+
+    "bots": {
+      "apitoken": "",
+      "domain": "https://discord.bots.gg"
+    },
+
+    "ondiscord": {
+      "apitoken": "",
+      "domain": "https://bots.ondiscord.xyz"
+    }, 
+
+    "infinitybots": {
+      "apitoken": "",
+      "domain": "https://infinitybots.gg"
+    },
+
+    "discordlabs": {
+      "apitoken": "",
+      "domain": "https://bots.discordlabs.org"
+    }
+  },
+
+  "owners": {
+    "hivewitness": {
+      "HIVEUSER": "",
+      "HIVEACTKEY": "",
+      "SERVERKEY": "",
+      "HIVEURL": ""
+    },
+    
+    "blurtwitness": {
+      "HIVEUSER": "",
+      "HIVEACTKEY": "",
+      "SERVERKEY": "",
+      "HIVEURL": ""
+    },
+    
+    "owner_id": "",
+    "owner_user": "",
+    "owner_tag": "",
+    
+    "social": {
+      "twitch": "",
+      "instagram": "",
+      "twitter": "",
+      "hive": "",
+      "vimm": "",
+      "glimesh": "",
+      "dlive": "",
+      "trovo": "",
+      "youtube": {
+        "channelid": "",
+        "customurl": ""
+      },
+      "theta": ""
+    }
+  },
+
+  "alloyroles": {
+    "twitchmod_role": "",
+    "nitroboost_role": "",
+    "guild_id": "",
+    "streamer_role": "",
+    "twitchsub_role": "",
+    "mega_role": "",
+    "legend_role": "",
+    "premium_role": "",
+    "donator_role": ""
+  },
+
+  "chisroles": {
+    "twitchmod_role": "",
+    "nitroboost_role": "",
+    "guild_id": "",
+    "streamer_role": "",
+    "twitchsub_role": "",
+    "mega_role": "",
+    "legend_role": "",
+    "premium_role": "",
+    "donator_role": ""
+  }
+
+}
+
+
